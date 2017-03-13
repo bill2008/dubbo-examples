@@ -13,4 +13,4 @@ class ApplicationBoot
 
 @Configuration
 @ImportResource(Array("classpath*:/dubbo/*.xml"))
-class ConfigDubbo
+class ApplicationBootConfigDubbo

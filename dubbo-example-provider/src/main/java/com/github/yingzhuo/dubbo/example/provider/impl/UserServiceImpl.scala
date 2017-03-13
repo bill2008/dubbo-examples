@@ -4,9 +4,11 @@ import java.util
 
 import com.github.yingzhuo.dubbo.example.common.domain.User
 import com.github.yingzhuo.dubbo.example.common.service.UserService
+import org.springframework.stereotype.Component
 
 import scala.collection.JavaConverters._
 
+@Component
 class UserServiceImpl extends AnyRef with UserService {
 
     private[this] val allUsersMap = Map[String, User](

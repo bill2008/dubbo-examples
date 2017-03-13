@@ -8,6 +8,8 @@ class User extends AbstractDomain {
     @BeanProperty var name: String = _
     @BeanProperty var age: Int = _
 
+    override def toString = s"User(id=$id, name=$name, age=$age)"
+
 }
 
 object User {
