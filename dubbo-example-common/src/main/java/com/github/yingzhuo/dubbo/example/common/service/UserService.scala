@@ -10,4 +10,5 @@ trait UserService {
 
     def findAllUsers(): JList[User]
 
+    def borken(): Unit
 }
